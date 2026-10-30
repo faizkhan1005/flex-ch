@@ -1,0 +1,841 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.p1 {
+
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.topp {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.t1,
+.t2,
+.t3 {
+
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid black;
+}
+
+
+.top {
+
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.a1,
+.a2,
+.a3 {
+
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.b1,
+.b2,
+.b3 {
+
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+
+.t2 {
+
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+
+}
+
+.left {
+
+    height: 100%;
+    width: 70%;
+
+
+}
+
+.t-1 {
+
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #091413;
+}
+
+.b-1 {
+
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+   
+    display: flex;
+}
+
+.b-m-1 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+     background-color: #285A48;
+}
+
+.b-m-2 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #B0E4CC;
+}
+
+.right {
+
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #412D15;
+
+}
+
+.t3 {
+    height: 100%;
+    width: 33.33%;
+}
+
+.t-3-1,
+.t-3-3 {
+
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.t-3-2 {
+
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.t-3-3-1 {
+
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.t-3-3-2 {
+
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+}
+
+
+
+.center {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.c1,
+.c2,
+.c3 {
+
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid black;
+}
+
+.c-t {
+
+    width: 100%;
+    height: 40%;
+    display: flex;
+
+}
+
+.c-t-1 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+.c-t-2 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+.c-c-t {
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.c-c-t-1 {
+
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+   
+}
+
+.c-c-t-2 {
+
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+  
+}
+
+.c-s {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.c-s-1 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-2 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.c-s-3 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-4 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.c-s-5 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-6 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color:black;
+
+}
+
+.c-s-s-1 {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+
+}
+
+.c-s-c-1 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.c-s-c-2 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-c-3 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.c-s-c-4 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-c-5 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.c-s-c-6 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.c-s-s-1-2 {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+
+}
+
+.c-s-c-e-1 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.c-s-c-e-2 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.c-s-c-e-3 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.c-s-c-e-4 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.c-s-c-e-5 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.c-s-c-e-6 {
+
+    height: 100%;
+    width: 16.50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.c3-1 {
+
+    height: 20%;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.c3-1-1 {
+
+    width: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #BC0202;
+}
+
+.c3-1-2 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #830000;
+}
+
+.c3-1-3 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #000000;
+    
+}
+
+
+.c3-2 {
+
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+
+.c3-1-1-1 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #6D0808;
+}
+
+.c3-1-1-2 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #2D0000;
+}
+
+.c3-1-1-3 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #757D6F;
+}
+
+.c3-1-1-4 {
+
+    width: 100%;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #EEEAD7;
+}
+
+.c4 { 
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.c4-l {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #412D15;
+}
+
+
+.c4-r {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.c4-rr {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.c4-rr-1 {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #757D6F;
+
+}
+
+.c4-rr-2 {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #6D0808;
+}
+
+
+.c4-rr-2-1 {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.c4-rr-1-1 {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #6D0808;
+}
+
+.c4-rr-2-2 {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #757D6F;
+}
+
+
+.c4-l-n {
+
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.c4-l-1 {
+
+    height: 100%;
+    width: 80%;
+    border: 1px solid black;
+   
+        background-color: #2D0000;
+
+}
+
+
+.c4-l-2 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+     background-color: #000000;
+
+
+}
+
+.bottom1 {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+
+}
+
+.bb1,
+.bb2,
+.bb3 {
+
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid black;
+}
+
+.bb-11 {
+
+    height: 20%;
+    width: 100%;
+    display: flex;
+
+}
+
+.bb-11-1 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #FFCB3D;
+}
+
+.bb-11-2 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #5D9253;
+}
+
+.bb-11-top2 {
+
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+.bb-11-l {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #F1A344;
+}
+
+.bb-11-r {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.bb-tt-1 {
+
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #2D0000;
+}
+
+.bb-tt-bb-1 {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+
+}
+
+.bb-tt-bb-11 {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #F1A344;
+
+}
+
+.bb-tt-bb-22 {
+
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #285A48;
+}
+
+.o {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.o1 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #5E3122;
+
+}
+
+
+
+.o2 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: rgb(11, 11, 67);
+
+}
+
+
+.o3 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #2d2102;
+
+}
+
+
+.o4 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    background-color:#061802;
+
+}
+
+.o5 {
+
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #3f1101;
+
+}
+
+
+.p {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    background-color: #EEEAD7;
+
+}
+
+.p-l {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+.p-ll {
+    height: 100;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #5D9253;
+    
+}
+
+.p-rrr {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+.boo {
+
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    background-color: #285A48;
+
+}
+
+/* .b33{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+} */
+
+.tt-ooo {
+
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #2d2102;
+
+}
+
+
+.bb-11-top3 {
+
+    height: 80%;
+    width: 100%;
+      
+    display: flex;
+
+}
+
+.bb-11-q {
+
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #F1A344;
+  
+}
+
+.bb-11-rr {
+
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    
+}
+
+.bb-tt-19 {
+
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #091413;
+}
+
+.bb-tt-bb-0 {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+
+}
+
+.bb-tt-bb-11-99 {
+
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    background-color: #FFCB3D;
+
+}
+
+.bb-tt-bb-22-77 {
+
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    background-color: #6D0808;
+}
